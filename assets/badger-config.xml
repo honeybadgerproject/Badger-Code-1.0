@@ -1,0 +1,20 @@
+<webviews>
+	<view-services>
+		<view-service>
+		    <!-- el nombre del web view -->
+		    <id-WebView>homeView</id-WebView>
+		 	<class-name>com.honey.jsService.Gen</class-name>
+		 	<html-interface-name>MyClshomeView</html-interface-name>
+		 	<url>file:///android_asset/web/home.html</url>  
+  		</view-service>
+	</view-services>
+	<js-services>
+		<js-service>
+		    <!-- el nombre del web view -->
+		    <id-method>button1</id-method>
+		 	<!-- <class-name>com.honey.jsService.Gen</class-name>  -->
+		 	<js-method>myJSService</js-method>
+		 	<path>file:///android_asset/web/js/webService.js</path>  
+  		</js-service>
+	</js-services>
+</webviews>
